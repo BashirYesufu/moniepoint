@@ -12,6 +12,12 @@ class _AppState extends State<App> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        fontFamily: "Inter",
+        visualDensity: VisualDensity.adaptivePlatformDensity,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        useMaterial3: true,
+      ),
       routes: RouteHandler.routes,
       initialRoute: RouteHandler.initialRoute,
       onGenerateRoute: RouteHandler.generatedRoute,
