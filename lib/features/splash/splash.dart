@@ -26,7 +26,11 @@ class _SplashState extends State<Splash> {
               curve: Curves.easeIn,
               duration: Duration(milliseconds: 1500),
               child: Text(
-                'Monie',
+                'Move Mate',
+                style: TextStyle(
+                  fontSize: 50,
+                  color: Theme.of(context).primaryColor
+                ),
               ),
               onAnimationEnd: (){
                 Navigator.of(context).pushReplacementNamed(LandingTab.routeName);
