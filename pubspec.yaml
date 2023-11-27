@@ -33,4 +33,4 @@ flutter:
   fonts:
     - family: Inter
       fonts:
-        - asset: assets/font/Inter-Regular.otf
+        - asset: asset/font/Inter-Regular.otf
